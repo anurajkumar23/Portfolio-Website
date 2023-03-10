@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import 'font-awesome/css/font-awesome.min.css';
 import "./header.css";
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Anuraj Kumar
+          Anuraj
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
