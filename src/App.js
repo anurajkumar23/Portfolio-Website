@@ -5,6 +5,8 @@ import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Services from './components/services/Services'
 import Skills from './components/skills/Skills'
+import Qualification from './qualification/Qualification'
+
 
 const App = () => {
   return (
@@ -15,6 +17,7 @@ const App = () => {
         <About/>
         <Skills/>
         <Services/>
+        <Qualification/>
     </main>
    </div>
   )
