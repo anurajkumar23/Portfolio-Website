@@ -31,7 +31,7 @@ const About = () => {
             easier.
           </p>
 
-          <Link to={CV} download className="flex max-w-36 items-center  p-2 border bg-red-600 text-white font-semibold rounded-lg">
+          <Link to={CV} download className="flex max-w-36 max-sm:ml-2 p-2 border bg-red-600 text-white font-semibold rounded-lg">
           <FaFileAlt />
             Download CV
           </Link>
