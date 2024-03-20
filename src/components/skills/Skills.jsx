@@ -13,7 +13,7 @@ const Skills = () => {
       <h1>Skills</h1>
       </div>
       
-      <div className= "mx-10 md:grid-cols-2 lg:grid-cols-3 gap-6 grid">
+      <div className= "w-full md:grid-cols-2 lg:grid-cols-3 gap-6 grid">
 
        <Frontend/>
        <Backend/>
