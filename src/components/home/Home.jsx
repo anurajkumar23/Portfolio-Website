@@ -6,7 +6,7 @@ import ScrollDown from "./ScrollDown";
 
 const Home = () => {
   return (
-    <section className="w-screen h-screen flex items-center justify-center bg-slate-100 " id='home'>
+    <section className="w-full h-screen flex items-center justify-center bg-slate-100 " id='home'>
      <div className="grid grid-cols-2 w-3/4">
         <div className="home__img"></div>
         <Data/>
