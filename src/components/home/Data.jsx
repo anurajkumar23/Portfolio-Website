@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect/dist/core";
+import ScrollDown from "./ScrollDown";
 
 const Data = () => {
   useEffect(() => {
@@ -80,6 +81,7 @@ const Data = () => {
       <div className="pt-2">
         <button className="bg-red-600 text-white text-2xl font-medium p-1 px-4 rounded-md cursor-pointer">Resume</button>
       </div>
+      <ScrollDown/>
       {/* <a href="#contact" className="button button--flex">
         Say Hello
         <svg

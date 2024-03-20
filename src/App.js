@@ -16,10 +16,10 @@ const App = () => {
       <div className='py-6'>
         <Home />
         <About/>
-        <Skills/>
-        <Services/>
-        <Qualification/>
-        <Testimonials/>
+        {/* <Skills/> */}
+        {/* <Services/> */}
+        {/* <Qualification/>
+        <Testimonials/> */}
         </div>
     </main>
    </div>
