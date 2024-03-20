@@ -13,12 +13,14 @@ const App = () => {
     <div>
       <Header/>
     <main className= 'main'>
+      <div className='py-4'>
         <Home />
         <About/>
         <Skills/>
         <Services/>
         <Qualification/>
         <Testimonials/>
+        </div>
     </main>
    </div>
   )

@@ -1,25 +1,18 @@
-import React from 'react'
-import "./home.css"
-import Social from './Social'
-import Data from './Data'
-import ScrollDown from "./ScrollDown"
+import React from 'react';
+import "./home.css";
+import Social from './Social';
+import Data from './Data';
+import ScrollDown from "./ScrollDown";
 
 const Home = () => {
   return (
-  <section className="home section" id='home'>
-    <div className="home__container container grid">
-        <div className="home__content grid">
-        <Social/>
-
+    <section className="w-screen h-screen flex items-center justify-center bg-slate-100 " id='home'>
+     <div className="grid grid-cols-2 w-3/4">
         <div className="home__img"></div>
-
         <Data/>
+      </div>
+    </section>
+  );
+};
 
-        </div>
-        <ScrollDown/>
-    </div>
-  </section>
-  )
-}
-
-export default Home
+export default Home;
