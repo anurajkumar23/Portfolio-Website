@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect/dist/core";
 import ScrollDown from "./ScrollDown";
+import CV from "../../assests/Anuraj kumar resume.pdf";
+import { Link } from "react-router-dom";
 
 const Data = () => {
   useEffect(() => {
@@ -79,9 +81,11 @@ const Data = () => {
        <div id="typewriter" className="text-red-600 font-bold md:text-4xl text-2xl "></div>
       </div>
       <div className="pt-2">
+        <Link to={CV}>
         <button className="bg-red-600 text-white text-2xl font-medium p-1 px-4 rounded-md cursor-pointer">Resume</button>
+        </Link>
       </div>
-      <ScrollDown/>
+      
       {/* <a href="#contact" className="button button--flex">
         Say Hello
         <svg
@@ -102,6 +106,9 @@ const Data = () => {
           ></path>
         </svg>
       </a> */}
+      <div className="w-full">
+      <ScrollDown/>
+      </div>
     </div>
   );
 };
