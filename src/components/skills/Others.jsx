@@ -2,8 +2,8 @@ import React from 'react'
 
 const Others = () => {
   return (
-    <div className="Skills__content">
-      <h3 className="skills__title">Programming Skills</h3>
+    <div className="Skills__content border-4 border-red-600">
+      <h3 className="skills__title font-medium text-red-600">Programming Skills</h3>
 
       <div className="skills__box">
         <div className="skills__group">

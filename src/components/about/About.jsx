@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="h-screen w-full py-20  " id="about">
+    <section className=" w-full py-20  " id="about">
       <div className="w-full flex gap-x-2 justify-center items-center sm:text-4xl text-2xl font-semibold pb-6">
         <p>All</p>
         <p className="text-red-600">About</p>

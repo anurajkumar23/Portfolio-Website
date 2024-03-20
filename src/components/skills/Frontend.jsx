@@ -3,8 +3,8 @@ import React from "react";
 
 const Frontend = () => {
   return (
-    <div className="Skills__content">
-      <h3 className="skills__title">Frontend Developer</h3>
+    <div className="Skills__content border-4 border-red-600">
+      <h3 className="skills__title font-medium text-red-600">Frontend Developer</h3>
 
       <div className="skills__box">
         <div className="skills__group">
@@ -20,6 +20,14 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">CSS3</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">tailwind css</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -54,6 +62,13 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">React</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">TypeScript</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
