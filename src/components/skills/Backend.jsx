@@ -3,7 +3,7 @@ import React from "react";
 
 const Backend = () => {
   return (
-    <div className="border-4 border-red-600 max-sm:full rounded-xl mx-2">
+    <div className="border-4 border-red-600 max-sm:full rounded-2xl mx-2">
       <h3 className="skills__title font-medium text-red-600">Backend Developer</h3>
 
       <div className="skills__box">
