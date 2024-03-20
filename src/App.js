@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <Header/>
     <main className= 'main'>
-      <div className='py-4'>
+      <div className='py-6'>
         <Home />
         <About/>
         <Skills/>

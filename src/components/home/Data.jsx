@@ -77,7 +77,10 @@ const Data = () => {
         <h1>I'm a</h1>
        <div id="typewriter" className="text-red-600 font-bold md:text-4xl text-2xl "></div>
       </div>
-      <a href="#contact" className="button button--flex">
+      <div className="pt-2">
+        <button className="bg-red-600 text-white text-2xl font-medium p-1 px-4 rounded-md cursor-pointer">Resume</button>
+      </div>
+      {/* <a href="#contact" className="button button--flex">
         Say Hello
         <svg
           class="button__icon"
@@ -96,7 +99,7 @@ const Data = () => {
             fill="var(--container-color)"
           ></path>
         </svg>
-      </a>
+      </a> */}
     </div>
   );
 };
