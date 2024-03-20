@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import 'font-awesome/css/font-awesome.min.css';
 import "./header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -21,47 +22,47 @@ const Header = () => {
   return (
     <header className="w-full fixed top-0 left-0 z-10 bg-white">
       <nav className="container flex justify-between items-center gap-x-4 py-6">
-        <a href="index.html" className="flex text-4xl font-bold px-8">
+        <Link to="/" className="flex text-4xl font-bold px-8">
           <p>Anu</p>
           <p className="text-red-600">raj</p>
-        </a>
+        </Link>
 
         <div className={`w-full justify-end mr-10 flex nav__menu bg-slate-100 md:bg-inherit ${toggle ? 'show-menu' : ''}`}>
-          <ul className="md:flex gap-10 md:text-xl md:font-semibold grid grid-cols-3 ">
+          <ul className="md:flex  gap-10 md:text-xl md:font-semibold grid grid-cols-3 max-md:w-full ">
             <li className="">
-              <a href="#home" className={`nav__link ${activeLink === 'home' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('home')}>
+              <Link to="/" className={`nav__link ${activeLink === 'home' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('home')}>
                 <i className="uil uil-estate nav__icon"></i> Home
-              </a>
+              </Link>
             </li>
 
             <li className="nav__item">
-              <a href="#about" className={`nav__link ${activeLink === 'about' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('about')}>
+              <Link to="/about" className={`nav__link ${activeLink === 'about' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('about')}>
                 <i className="uil uil-user nav__icon"></i> About
-              </a>
+              </Link>
             </li>
 
             <li className="nav__item">
-              <a href="#skills" className={`nav__link ${activeLink === 'skills' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('skills')}>
+              <Link to="/skills" className={`nav__link ${activeLink === 'skills' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('skills')}>
                 <i className="uil uil-file-alt nav__icon"></i> Skills
-              </a>
+              </Link>
             </li>
 
             <li className="nav__item">
-              <a href="#services" className={`nav__link ${activeLink === 'services' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('services')}>
+              <Link to="#services" className={`nav__link ${activeLink === 'services' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('services')}>
                 <i className="uil uil-briefcase-alt nav__icon"></i> Services
-              </a>
+              </Link>
             </li>
 
             <li className="nav__item">
-              <a href="#Porfolio" className={`nav__link ${activeLink === 'portfolio' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('portfolio')}>
+              <Link to="/Porfolio" className={`nav__link ${activeLink === 'portfolio' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('portfolio')}>
                 <i className="uil uil-scenery nav__icon"></i> Portfolio
-              </a>
+              </Link>
             </li>
 
             <li className="nav__item">
-              <a href="#contact" className={`nav__link ${activeLink === 'contact' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('contact')}>
+              <Link to="/contact" className={`nav__link ${activeLink === 'contact' ? 'underline text-red-600' : ''}`} onClick={() => handleSetActiveLink('contact')}>
                 <i className="uil uil-message nav__icon"></i> Contact
-              </a>
+              </Link>
             </li>
           </ul>
 
