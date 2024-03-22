@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <section className=" w-full py-20  " id="about">
-      <div className="w-full flex gap-x-2 justify-center items-center sm:text-4xl text-2xl font-semibold pb-6">
+      <div className="w-full flex gap-x-2 justify-center items-center sm:text-4xl text-[1.4rem] font-bold pb-6">
         <p>All</p>
         <p className="text-red-600">About</p>
         <p>Me And My</p>
