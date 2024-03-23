@@ -55,7 +55,7 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <motion.div
-                initial={{ opacity: 0,x: -100}}
+                initial={{ opacity: 0,x: -50}}
                 whileInView={{ opacity: 1.5,scale:1,x:0 }}
                 transition={{ duration: 1 }}
               >
@@ -84,7 +84,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <motion.div
-                initial={{ opacity: 0,x: 100}}
+                initial={{ opacity: 0,x: 50}}
                 whileInView={{ opacity: 1.5,scale:1,x:0 }}
                 transition={{ duration: 1 }}
               >
@@ -101,7 +101,7 @@ const Qualification = () => {
 
             <div className="qualification__data">
             <motion.div
-                initial={{ opacity: 0,x: -100}}
+                initial={{ opacity: 0,x: -50}}
                 whileInView={{ opacity: 1.5,scale:1,x:0 }}
                 transition={{ duration: 1 }}
               >
@@ -129,7 +129,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <motion.div
-                initial={{ opacity: 0,x: 100}}
+                initial={{ opacity: 0,x: 50}}
                 whileInView={{ opacity: 1.5,scale:1,x:0 }}
                 transition={{ duration: 1 }}
               >
@@ -145,7 +145,7 @@ const Qualification = () => {
             </div>
             <div className="qualification__data">
             <motion.div
-                initial={{ opacity: 0,x: -100}}
+                initial={{ opacity: 0,x: -50}}
                 whileInView={{ opacity: 1.5,scale:1,x:0 }}
                 transition={{ duration: 1 }}
               >
@@ -176,7 +176,7 @@ const Qualification = () => {
           >
             <div className="qualification__data">
             <motion.div
-                initial={{ opacity: 0,x: -100}}
+                initial={{ opacity: 0,x: -50}}
                 whileInView={{ opacity: 1.5,scale:1,x:0 }}
                 transition={{ duration: 1 }}
               >
@@ -204,7 +204,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <motion.div
-                initial={{ opacity: 0,x: 100}}
+                initial={{ opacity: 0,x: 50}}
                 whileInView={{ opacity: 1.5,scale:1,x:0 }}
                 transition={{ duration: 1 }}
               >
@@ -221,7 +221,7 @@ const Qualification = () => {
 
             <div className="qualification__data">
             <motion.div
-                initial={{ opacity: 0,x: -100}}
+                initial={{ opacity: 0,x: -50}}
                 whileInView={{ opacity: 1.5,scale:1,x:0 }}
                 transition={{ duration: 1 }}
               >
