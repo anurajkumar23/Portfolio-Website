@@ -4,6 +4,7 @@ import Frontend from "./Frontend"
 import Backend from "./Backend"
 import Others from './Others'
 
+
 const Skills = () => {
   return (
     <div className= "w-full py-20 bg-slate-100" id= "skills">

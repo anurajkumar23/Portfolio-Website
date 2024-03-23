@@ -3,9 +3,16 @@ import { FaVideo } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Card = ({ img, alt, title, Description, TechStack, Video, Live, Github }) => {
   return (
+    <div>
+       <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileInView={{ opacity: 1.5, scale: 1 }}
+        transition={{ duration: 1 }} 
+      >
     <div className="mb-6 border shadow-xl hover:shadow-2xl p-4 rounded-xl bg-white">
       <img
         src={img}
@@ -44,6 +51,8 @@ const Card = ({ img, alt, title, Description, TechStack, Video, Live, Github }) 
           </Link>
         </div>
       </div>
+    </div>
+    </motion.div>
     </div>
   );
 };

@@ -1,8 +1,13 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 
 const Frontend = () => {
   return (
+    <motion.div
+    initial={{ opacity: 0, scale: 0.5 }}
+    whileInView={{ opacity: 1.5, scale: 1 }}
+    transition={{ duration: 0.8 }} 
+  >
     <div className="border-4 border-red-600 max-sm:full rounded-2xl mx-2">
       <h3 className="skills__title font-medium text-red-600">Frontend Developer</h3>
 
@@ -83,6 +88,7 @@ const Frontend = () => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 
