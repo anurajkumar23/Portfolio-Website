@@ -2,7 +2,6 @@ import React from "react";
 import { FaVideo } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Card = ({ img, alt, title, Description, TechStack, Video, Live, Github }) => {
@@ -34,21 +33,21 @@ const Card = ({ img, alt, title, Description, TechStack, Video, Live, Github }) 
           <h1 className="text-gray-500">{TechStack}</h1>
         </div>
         <div className="pt-2 flex justify-between text-3xl">
-          <Link href={Video}>
+          <a href={Video} target="_blank">
             <div className="p-2 rounded-full hover:text-white hover:bg-red-600 ">
             <FaVideo />
             </div>
-          </Link>
-          <Link href={Live} >
+          </a>
+          <a href={Live} target="_blank">
           <div className="p-2 rounded-full hover:text-white hover:bg-red-600 ">
             <FaEye />
             </div>
-          </Link>
-          <Link href={Github} >
+          </a>
+          <a href={Github} target="_blank" >
           <div className="p-2 rounded-full hover:text-white hover:bg-red-600 ">
             <FaGithub />
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
